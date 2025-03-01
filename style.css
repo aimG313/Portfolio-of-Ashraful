@@ -10,6 +10,8 @@
   serif;
 }
 
+/* header flex */
+
 header{
   background-color: #222831;
   padding: 40px;
@@ -32,20 +34,13 @@ nav{
   font-weight: 400;
   display: flex;
   gap: 20px;
+  padding-right: 100px
   
 }
 
-.content{
-  font-weight: 700;
-  font-size: 65px;
-  line-height: 80px;
-  margin-bottom: 40px;
-}
 
-section{
-  padding-left: 200px;
-  
-}
+
+/* main flex */
 
 main{
   background-color: #21303d;
@@ -57,6 +52,17 @@ main{
  
 }
 
+.content {
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 80px;
+  margin-bottom: 40px;
+}
+
+section {
+  padding-left: 150px;
+
+}
 
 .Portfolio{
 color: #00ADB5;
@@ -69,7 +75,7 @@ img{
 
 
 button{
-  background-color: #00ADB5;
+  background-color: #46917e;
   color: aliceblue;
   /* padding: 7px 20px 7px 20px; */
   font-weight: 700;
