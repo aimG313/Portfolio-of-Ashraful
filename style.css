@@ -19,6 +19,7 @@ header{
   justify-content: space-between;
   align-items: center;
   padding: 20px;
+  flex-wrap: wrap;
 }
 
 .logo{
@@ -43,6 +44,7 @@ nav{
 /* main flex */
 
 main{
+  flex-wrap: wrap;
   background-color: #21303d;
   padding: 40px;
   display: flex;
