@@ -6,32 +6,162 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ashraful's Portfolio</title>
   <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+   
+
 </head>
 
 <body>
+  <!-- head = nav + hero Section -->
   <header>
-    <h2 class="logo">Innovative Skills BD</h2>
-    <nav>
-      <a href="">Home</a> |
-      <a href="">About</a> |
-      <a href="">Contact Me</a>
-    </nav>
+    <!-- nav section -->
+    <section class="logo_nav">
+      <h2 class="logo">Innovative Skills BD</h2>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>|
+          <li><a href="#about">About</a></li>|
+          <li><a href="#projects">Projects</a></li>|
+          <li><a href="#contact">Contact Me</a></li>
+        </ul>
+      </nav>
+    </section>
+
+    <!-- hero section -->
+    <section id="home" class="hero">
+
+      <div class="identity">
+        <h1 class="content">Ashraful Islam Mahi <br><span class="Portfolio">Full Stack Python Developer</span></h1>
+
+        <button id="hire">Hire Me</button>
+        <button id="Download">Download CV <i class="fa-solid fa-download"></i></button>
+
+      </div>
+
+      <aside>
+        <img class="dp" src="assets/dp_mahi.png" alt="My photo">
+      </aside>
+
+    </section>
+
   </header>
 
   <main>
-    <section class="item">
 
-      <h1 class="content">Ashraful Islam Mahi <br><span class="Portfolio">Software Developer </span></h1>
+    <!-- About section -->
+    <section id="about" class="About_Me">
 
-      <button id="hire">Hire Me</button>
-      <button id="Download">Download CV</button>
+
+      <div class="left_side">
+        <h3 class="about">About<span class="me"> Me</span></h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, exercitationem pariatur minima magnam
+          accusantium excepturi cumque veniam deserunt fugiat suscipit. <span class="read_more_btn">Read More</span></p>
+      </div>
+      <div class="right_side">
+        <img src="assets/pc.png" alt="">
+      </div>
 
     </section>
 
 
-    <aside>
-      <img src="assets/dp_mahi.png" alt="My photo">
-    </aside>
+    <!-- Project section -->
+    <section id="projects" class="Projects">
+      <h3 class="my">My<span class="projects"> Projects</span></h3>
+
+      <div class="button_container">
+        <button class="buttons">All</button>
+        <button class="buttons">Ui-Ux</button>
+        <button class="buttons">Web Dev</button>
+        <button class="buttons">Ai-ML</button>
+        <button class="buttons">Robotics</button>
+        <button class="buttons">Blockchain</button>
+      </div>
+
+      <div class="image_container">
+
+        <div class="project_image">
+          <img src="assets/ui_ux.png" alt="">
+        </div>
+
+        <div class="project_image">
+          <img src="assets/laptops.png" alt="">
+        </div>
+
+        <div class="project_image">
+          <img src="assets/mobiles.png" alt="">
+        </div>
+      </div>
+
+    </section>
+
+    <!-- contact us section -->
+    <section id="contact" class="contact_us">
+      <div class="left_side">
+        <h3>Got a <span class="project">Project</span> in Mind?</h3>
+        <img src="assets/man.png" alt="">
+      </div>
+
+      <div class="right_side">
+        <form action="#">
+          <div class="name_mail">
+
+            <div class="name">
+
+              <label for="Name">Your Name:</label>
+              <input class="name_int" type="text" name="Name" id="Name" placeholder="Name">
+            </div>
+
+            <div class="email">
+
+              <label for="Email">Your Email:</label>
+              <input class="email_int" type="email" name="Email" id="Email" placeholder="Email">
+            </div>
+          </div>
+
+          <div class="mess">
+              <label for="Message">Your Message:</label>
+              <textarea name="Message" id="Message" placeholder="Message"></textarea>
+          </div>
+          
+          
+          <button class="submit" type="submit">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+
+      
+    </form>
+
+      </div>
+    </section>
+
+    <!-- footer section -->
+     <footer>
+       <div class="nav_logo">
+        <ul>
+          <li><i class="fa-solid fa-house-user"></i> Home</li>
+          <li><i class="fa-solid fa-user"></i> About Me</li>
+          <li><i class="fa-solid fa-diagram-project"></i> Projects</li>
+          <li><i class="fa-solid fa-phone"></i> Contact</li>
+        </ul>
+       </div>
+
+       <div class="social_logo">
+        <ul>
+          <li><i class="fa-brands fa-facebook"></i></li>
+          <li><i class="fa-brands fa-instagram"></i></li>
+          <li><i class="fa-brands fa-x-twitter"></i></li>
+          <li><i class="fa-brands fa-youtube"></i></li>
+        </ul>
+       </div>
+
+       <div class="copyright">
+         <p>Terms of Service - Privacy Policy</p>
+        
+       </div>
+     </footer>
+
 
   </main>
 
